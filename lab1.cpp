@@ -2,8 +2,6 @@
 #include <string>
 #include <ctime>
 
-// в 31 - 39 задачах нельзя доп переменные в функции, создание массива через рандом(rand). 
-
 // ЗАДАНИЕ 1
 double fraction(double x){
     return x- int(x);
@@ -212,7 +210,7 @@ int maxAbs(int arr[], int size){
 int main(){
     setlocale(LC_ALL, "Russian");
     std::srand(std::time(nullptr));
-/*
+
 // num 1
     double x1 = 0;
     std::cout << "NUM 1 - Введите вещественное число: " << std::endl;
@@ -357,7 +355,7 @@ int main(){
     std::cin >> x31;
     std::cout << findFirst(arr31, x31) << std::endl; 
     std::cout << std::endl;
-*/
+
 // num 33
     int size33 = std::rand() % 10;
     int arr33[size33];
